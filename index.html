@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>주식회사 커서 | Kursor Inc.</title>
+<meta name="description" content="주식회사 커서 - 소프트웨어 및 플랫폼 개발 전문 기업">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Kursor<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">회사소개</a>
+      <a href="#services">사업영역</a>
+      <a href="#values">핵심가치</a>
+      <a href="#history">연혁</a>
+      <a href="#contact">문의</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">SOFTWARE &amp; PLATFORM DEVELOPMENT</p>
+      <h1>코드로 연결하고,<br>플랫폼으로 확장합니다.</h1>
+      <p class="hero-desc">주식회사 커서는 소프트웨어 개발과 플랫폼 구축을 전문으로 하는<br class="only-desktop">
+      기술 기업입니다. 아이디어를 안정적인 서비스로 만듭니다.</p>
+      <div class="hero-actions">
+        <a href="#services" class="btn btn-primary">사업 영역 보기</a>
+        <a href="#contact" class="btn btn-outline">문의하기</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true"><span></span></div>
+  </section>
+
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><strong data-count="12">0</strong><span>년 이상의 기술 경험</span></div>
+      <div class="stat"><strong data-count="80">0</strong><span>+ 프로젝트 수행</span></div>
+      <div class="stat"><strong data-count="30">0</strong><span>+ 전문 인력</span></div>
+      <div class="stat"><strong data-count="99">0</strong><span>% 고객 만족도</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <p class="section-label">ABOUT US</p>
+        <h2>기술로 문제를 풀고,<br>플랫폼으로 가치를 만듭니다.</h2>
+        <p class="about-desc">
+          주식회사 커서(Kursor Inc.)는 소프트웨어 개발과 플랫폼 개발을 전문으로 하는 기술 기업입니다.
+          웹/모바일 애플리케이션부터 대규모 트래픽을 처리하는 플랫폼 인프라까지,
+          기획부터 운영까지 전 과정을 함께합니다. 우리는 빠르게 만들되 오래 가는 시스템을 지향합니다.
+        </p>
+        <ul class="about-list">
+          <li><strong>미션</strong> 복잡한 문제를 단순한 기술로 해결합니다.</li>
+          <li><strong>비전</strong> 대한민국을 대표하는 플랫폼 기술 기업이 됩니다.</li>
+          <li><strong>철학</strong> 좋은 코드는 좋은 팀에서 나온다고 믿습니다.</li>
+        </ul>
+      </div>
+      <div class="about-visual" aria-hidden="true">
+        <div class="glow-card">
+          <div class="code-window">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <pre><code>class Kursor {
+  build(idea) {
+    return platform
+      .design(idea)
+      .develop()
+      .scale();
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <p class="section-label center">SERVICES</p>
+      <h2 class="section-title center">사업 영역</h2>
+      <p class="section-sub center">소프트웨어 개발부터 플랫폼 구축까지, 필요한 기술을 한 곳에서 제공합니다.</p>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">💻</div>
+          <h3>소프트웨어 개발</h3>
+          <p>웹, 모바일, 데스크톱 애플리케이션을 기획부터 배포까지 end-to-end로 개발합니다.
+          맞춤형 솔루션과 SaaS 제품 개발 경험을 보유하고 있습니다.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧩</div>
+          <h3>플랫폼 개발</h3>
+          <p>대규모 트래픽과 데이터를 안정적으로 처리하는 플랫폼 아키텍처를 설계하고 구축합니다.
+          확장 가능한 MSA/클라우드 인프라를 지향합니다.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔗</div>
+          <h3>API &amp; 시스템 연동</h3>
+          <p>내외부 시스템 간 안정적인 데이터 연동과 API 설계를 통해
+          비즈니스 프로세스를 자동화합니다.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">☁️</div>
+          <h3>클라우드 &amp; 인프라</h3>
+          <p>AWS/GCP 기반의 클라우드 인프라 설계, 배포 자동화(CI/CD),
+          모니터링 체계를 구축하여 안정적인 운영을 지원합니다.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🤖</div>
+          <h3>AI &amp; 데이터</h3>
+          <p>서비스에 필요한 데이터 파이프라인과 AI/ML 기능을 설계하고
+          제품에 자연스럽게 녹여냅니다.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🛠️</div>
+          <h3>유지보수 &amp; 운영</h3>
+          <p>런칭 이후에도 안정적인 서비스 운영을 위한 유지보수, 장애 대응,
+          지속적인 개선을 함께합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="values">
+    <div class="container">
+      <p class="section-label center">CORE VALUES</p>
+      <h2 class="section-title center">우리가 일하는 방식</h2>
+
+      <div class="values-grid">
+        <div class="value">
+          <span class="value-num">01</span>
+          <h3>속도보다 방향</h3>
+          <p>빠른 개발보다 올바른 방향 설정을 우선합니다. 방향이 맞으면 속도는 따라옵니다.</p>
+        </div>
+        <div class="value">
+          <span class="value-num">02</span>
+          <h3>기술적 정직함</h3>
+          <p>과장하지 않고, 할 수 있는 것과 없는 것을 명확히 이야기합니다.</p>
+        </div>
+        <div class="value">
+          <span class="value-num">03</span>
+          <h3>함께 성장하는 팀</h3>
+          <p>개인의 성장이 곧 팀과 회사의 성장이라 믿고 지속적인 학습을 지원합니다.</p>
+        </div>
+        <div class="value">
+          <span class="value-num">04</span>
+          <h3>고객과의 신뢰</h3>
+          <p>일회성 프로젝트가 아닌 장기적인 파트너십을 지향합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="history">
+    <div class="container">
+      <p class="section-label center">HISTORY</p>
+      <h2 class="section-title center">걸어온 길</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2026</div>
+          <div class="timeline-content">신규 플랫폼 사업부 신설 및 AI 서비스 라인 확장</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2023</div>
+          <div class="timeline-content">누적 프로젝트 수행 80건 돌파, 클라우드 전환 전담팀 구성</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2020</div>
+          <div class="timeline-content">자체 플랫폼 서비스 정식 출시</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2017</div>
+          <div class="timeline-content">기업 부설 연구소 설립, 소프트웨어 개발 전문 기업으로 전환</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2014</div>
+          <div class="timeline-content">주식회사 커서 설립</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-inner">
+      <h2>새로운 프로젝트를 준비 중이신가요?</h2>
+      <p>아이디어 단계부터 함께 고민하겠습니다. 지금 문의해 주세요.</p>
+      <a href="#contact" class="btn btn-primary">프로젝트 문의하기</a>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-label">CONTACT</p>
+        <h2>언제든 편하게<br>연락 주세요.</h2>
+        <ul class="contact-list">
+          <li><strong>회사명</strong><span>주식회사 커서 (Kursor Inc.)</span></li>
+          <li><strong>이메일</strong><span>jarvis@kursor.kr</span></li>
+          <li><strong>전화</strong><span>02-1234-1234</span></li>
+          <li><strong>주소</strong><span>서울특별시 강남구 테헤란로 309, 1116-1호</span></li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="name">이름</label>
+          <input type="text" id="name" name="name" placeholder="홍길동" required>
+        </div>
+        <div class="form-row">
+          <label for="email">이메일</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message">문의 내용</label>
+          <textarea id="message" name="message" rows="5" placeholder="문의하실 내용을 남겨주세요." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">문의 보내기</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo">Kursor<span>.</span></span>
+      <p>소프트웨어와 플랫폼으로 미래를 만듭니다.</p>
+    </div>
+    <div class="footer-meta">
+      <p>주식회사 커서 | 대표 : 진성환| 사업자등록번호 : 597-81-04251</p>
+      <p>서울특별시 강남구 테헤란로 309, 1116-1호 | jarvis@kursor.kr</p>
+      <p>&copy; <span id="year"></span> Kursor Inc. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
